@@ -4,7 +4,7 @@
   "description": "Server By Me",
   "main": "",
   "scripts": {
-    "start": "webpack -w"
+    "start": "concurrently \"webpack -w\" \" docker-compose  up \""
   },
   "browserslist": [
     "> 1%",
