@@ -1,0 +1,11 @@
+node_modules
+.babelrc
+.gitignore
+.env
+.prettierignore
+src
+.vscode
+package*.json
+README.md
+webpack.config.js
+tsconfig.json
